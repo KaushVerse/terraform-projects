@@ -1,0 +1,52 @@
+####################################
+# 🌍 Terraform (GLOBAL)
+####################################
+.terraform/
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files (secrets)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+####################################
+# 🔐 Secrets & Keys
+####################################
+*.pem
+*.ppk
+*.key
+.env
+.env.*
+
+####################################
+# 🧠 Terraform override files
+####################################
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+####################################
+# 💻 OS / Editor files
+####################################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+####################################
+# 🪟 Windows junk
+####################################
+desktop.ini
+
+####################################
+# 🧪 Temporary / backup files
+####################################
+*.log
+*.bak
+*.tmp
